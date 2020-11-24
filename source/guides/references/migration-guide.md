@@ -106,7 +106,7 @@ it('test', () => {
 
 ## `cy.wait(alias)` type
 
-{% url "`cy.route()`" route %} is deprecated in 6.0.0. We encourage the use of {% url "`cy.intercept()`" http %} instead. Due to this deprecation, the type yielded by {% url "`cy.wait(alias)`" wait %} has changed.
+{% url "`cy.route()`" route %} is deprecated in 6.0.0. We encourage the use of {% url "`cy.intercept()`" intercept %} instead. Due to this deprecation, the type yielded by {% url "`cy.wait(alias)`" wait %} has changed.
 
 {% badge danger Before %} Before 6.0.0, {% url "`cy.wait(alias)`" wait %} would yield an object of type `WaitXHR`.
 
